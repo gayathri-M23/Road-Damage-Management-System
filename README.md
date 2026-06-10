@@ -16,9 +16,9 @@ The Road Damage Management System is a web-based application that helps citizens
 
 ## Technology Stack
 
-* **Frontend:** HTML, CSS, JavaScript, Bootstrap
-* **Backend:** Python, Flask
-* **Database:** SQLite / MySQL
+* **Frontend:** HTML, CSS, JavaScript
+* **Backend:** Python
+* **Database:** MySQL
 
 #  **Project Files**
 
