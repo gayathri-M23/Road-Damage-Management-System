@@ -23,11 +23,11 @@ The Road Damage Management System is a web-based application that helps citizens
 #  **Project Files**
 
 * Project_details.md – Complete project documentation
-* ER_Diagram.jpe` – Entity Relationship Diagram
-* Use_case_Diagram.jpeg` – Use Case Diagram
+* ER_Diagram.png – Entity Relationship Diagram
+* Use_case_Diagram.png – Use Case Diagram
 * Database_Schema.png - database schema
-* UI_Wireframe - User interface wireframe
-* UI_Screen - Login & Dashboard UI design
+* UI_Wireframe.png - User interface wireframe
+* Login&Dashboard_UI.png - Login & Dashboard UI design
 
 ## Author
 
