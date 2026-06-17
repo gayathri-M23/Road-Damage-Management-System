@@ -4,6 +4,15 @@
 
 The Road Damage Management System is a web-based application that helps citizens report road damages such as potholes and cracks. Users can upload images and location details, while administrators can monitor complaints, assign repair teams, and track maintenance progress.
 
+## Problem Statement
+Traditional methods of reporting road damages are time-consuming and inefficient. This project provides a digital platform for reporting and tracking road damage complaints.
+
+## Objectives
+- Report road damages online
+- Upload damage images
+- Track complaint status
+- Improve road maintenance efficiency
+
 ## Features
 
 * User Registration and Login
@@ -22,14 +31,23 @@ The Road Damage Management System is a web-based application that helps citizens
 
 #  **Project Files**
 
-* Project_details.md – Complete project documentation
-* ER_Diagram.png – Entity Relationship Diagram
-* Use_case_Diagram.png – Use Case Diagram
-* Database_Schema.png - database schema
-* UI_Wireframe.png - User interface wireframe
-* Login&Dashboard_UI.png - Login & Dashboard UI design
+02_Project_Details.md
+03_Use_case_Diagram.png
+04_ER_Diagram.png
+05_Database_Schema.png
+06_UI_Wireframe.png
+07_Login_Dashboard_UI.png
+08_Navigation_Form design.png
+09_Login_Page_UI.png
+## Expected Outcome
+The system helps citizens report road damages quickly and enables authorities to manage repairs effectively.
+
+## Future Enhancements
+- Mobile Application
+- AI-based Damage Detection
+- GPS Location Tracking
+- Real-time Notifications
 
 ## Author
-
-**Gayathri Murugavel**
+Gayathri Murugavel
 First Year Engineering Student
