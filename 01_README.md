@@ -15,17 +15,26 @@ Traditional methods of reporting road damages are time-consuming and inefficient
 
 ## Features
 
-* User Registration and Login
-* Road Damage Reporting
-* Image Upload Support
-* Complaint Status Tracking
-* Admin Dashboard
-* Repair Management
-* Notifications and Updates
+- User Registration
+- User Login
+- Report Road Damage
+- My Reports
+- User Profile
+- Admin Login
+- Admin Dashboard
+- Complaint Status Update
+
+## Technologies Used
+
+- Python
+- Flask
+- HTML
+- CSS
+- MySQL
 
 ## Technology Stack
 
-* **Frontend:** HTML, CSS, JavaScript
+* **Frontend:** HTML, CSS,Flask
 * **Backend:** Python
 * **Database:** MySQL
 
