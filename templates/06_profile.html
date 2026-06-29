@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="profile-box">
 
+    <h1>Road Damage Management System</h1>
+
+    <h2>User Profile</h2>
+
+    <table class="profile-table">
+
+        <tr>
+            <td><b>User ID</b></td>
+            <td>{{ user[0] }}</td>
+        </tr>
+
+        <tr>
+            <td><b>Full Name</b></td>
+            <td>{{ user[1] }}</td>
+        </tr>
+
+        <tr>
+            <td><b>Email</b></td>
+            <td>{{ user[2] }}</td>
+        </tr>
+
+        <tr>
+            <td><b>Phone Number</b></td>
+            <td>{{ user[3] }}</td>
+        </tr>
+
+        <tr>
+            <td><b>Location</b></td>
+            <td>{{ user[4] }}</td>
+        </tr>
+
+        <tr>
+            <td><b>Registered Date</b></td>
+            <td>03-01-2026</td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <a href="/dashboard">
+        <button>Back to Dashboard</button>
+    </a>
+
+</div>
+</body>
