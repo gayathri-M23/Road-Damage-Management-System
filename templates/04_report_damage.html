@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Report Damage</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
 
+<body>
+
+<div class="login-box">
+
+    <h1>Road Damage Management System</h1>
+
+    <h2>Report Road Damage</h2>
+
+    <form action="/report" method="POST" enctype="multipart/form-data">
+
+        <input type="text" name="location" placeholder="Location" required>
+
+        <select name="damage_type" required>
+            <option value="">Select Damage Type</option>
+            <option>Pothole</option>
+            <option>Road Crack</option>
+            <option>Road Break</option>
+        </select>
+
+        <br><br>
+
+        <textarea name="description" placeholder="Describe the damage" rows="5" cols="40" required></textarea>
+
+        <br><br>
+
+        <input type="file" name="image">
+
+        <br><br>
+
+        <button type="submit">Submit Report</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
