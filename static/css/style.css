@@ -1,1 +1,161 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
 
+    background-image:url("../images/road-bg.jpg");
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height:100vh;
+}
+
+.login-box{
+    background:white;
+    width:350px;
+
+    padding:30px;
+
+    border-radius:10px;
+
+    text-align:center;
+
+    box-shadow:0px 0px 15px rgba(0,0,0,0.3);
+}
+
+.logo{
+    width: 80px;
+    height:80px;
+    display:block;
+    margin:0 auto 15px;
+}
+
+h1{
+    color:#0d47a1;
+    font-size:32px;
+}
+
+input{
+    width:90%;
+    padding:10px;
+
+    margin:10px 0;
+
+    border:1px solid #ccc;
+
+    border-radius:5px;
+}
+
+button{
+    width:95%;
+
+    padding:10px;
+
+    background:#e91e63;
+
+    color:white;
+
+    border:none;
+
+    border-radius:5px;
+
+    cursor:pointer;
+}
+
+button:hover{
+    background:#e74485;
+}
+select,
+textarea{
+    width:90%;
+    padding:10px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:14px;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+th,td{
+    border:1px solid #ccc;
+    padding:10px;
+    text-align:center;
+}
+
+th{
+    background:#0d47a1;
+    color:white;
+}
+
+.register-btn{
+    display:block;
+    width:95%;
+    padding:10px;
+    background:#e91e63;
+    color:white;
+    text-align:center;
+    text-decoration:none;
+    border-radius:5px;
+    margin:10px auto;
+}
+
+.register-btn:hover{
+    background:#e74485;
+}
+
+.login-box{
+    width:700px;
+    max-width:90%;
+    padding:30px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 0 15px rgba(0,0,0,0.3);
+}
+
+.dashboard-box{
+    background:white;
+    width:900px;
+    max-width:95%;
+    padding:40px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0px 0px 15px rgba(0,0,0,0.3);
+}
+
+.dashboard-box button{
+    width:100%;
+    margin:10px 0;
+}
+
+.profile-box{
+    background:white;
+    width:700px;
+    max-width:90%;
+    padding:35px;
+    border-radius:10px;
+    box-shadow:0px 0px 15px rgba(0,0,0,0.3);
+}
+
+.profile-table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+.profile-table td{
+    border:1px solid #ddd;
+    padding:12px;
+    text-align:left;
+}
+
+.profile-table tr:nth-child(even){
+    background:#f8f8f8;
+}
