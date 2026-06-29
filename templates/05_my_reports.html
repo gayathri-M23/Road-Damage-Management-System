@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Reports</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
 
+<body>
+
+<div class="login-box">
+
+    <h1>Road Damage Management System</h1>
+
+    <h2>My Reports</h2>
+
+<table border="1">
+
+<tr>
+    <th>Complaint ID</th>
+    <th>Location</th>
+    <th>Damage Type</th>
+    <th>Description</th>
+    <th>Status</th>
+</tr>
+
+{% for report in reports %}
+
+<tr>
+    <td>{{ report[0] }}</td>
+    <td>{{ report[2] }}</td>
+    <td>{{ report[3] }}</td>
+    <td>{{ report[4] }}</td>
+    <td>{{ report[6] }}</td>
+</tr>
+
+{% endfor %}
+
+</table>
+
+<br>
+
+<a href="/dashboard">
+    <button type="button">Back to Dashboard</button>
+</a>
+
+    
+</div>
+
+</body>
+</html>
