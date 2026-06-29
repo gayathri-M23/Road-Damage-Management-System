@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All Complaints</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
 
+<body>
+
+<div class="login-box">
+
+<h1>Road Damage Management System</h1>
+
+<h2>All Complaints</h2>
+
+<table border="1">
+
+<tr>
+    <th>ID</th>
+    <th>User ID</th>
+    <th>Location</th>
+    <th>Damage Type</th>
+    <th>Description</th>
+    <th>Status</th>
+</tr>
+
+{% for complaint in complaints %}
+
+<tr>
+    <td>{{ complaint[0] }}</td>
+    <td>{{ complaint[1] }}</td>
+    <td>{{ complaint[2] }}</td>
+    <td>{{ complaint[3] }}</td>
+    <td>{{ complaint[4] }}</td>
+    <td>
+    <form action="/update_status/{{ complaint[0] }}" method="POST">
+
+        <select name="status">
+
+            <option value="Pending"
+            {% if complaint[6]=="Pending" %}selected{% endif %}>
+            Pending
+            </option>
+
+            <option value="In Progress"
+            {% if complaint[6]=="In Progress" %}selected{% endif %}>
+            In Progress
+            </option>
+
+            <option value="Completed"
+            {% if complaint[6]=="Completed" %}selected{% endif %}>
+            Completed
+            </option>
+
+        </select>
+
+        <button type="submit">Update</button>
+
+    </form>
+</td>
+</tr>
+
+{% endfor %}
+
+</table>
+
+<br>
+
+<a href="/admin_dashboard">
+    <button>Back to Dashboard</button>
+</a>
+
+</div>
+
+</body>
+</html>
